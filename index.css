@@ -1,0 +1,36 @@
+.LeftSidebar 
+{
+    position: fixed;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 14px;
+    border: 3px solid black;
+    border-radius: 18px;
+    background: white;
+}
+
+.RightSidebar 
+{
+    position: fixed;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 14px;
+    border: 3px solid black;
+    border-radius: 18px;
+    background: white;
+}
+
+.nav-btn img
+{
+    display:block;
+    width: 30%;
+    height: auto;
+}
